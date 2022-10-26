@@ -1,7 +1,9 @@
-# Vue 3 + Vite
+Sample application to try and figure out how to use Pinia with Cypress.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+The goal here is to have a cypress test that SETS something in the store so it can then be tested.
 
-## Recommended IDE Setup
+Our store has a "form" with pages on it. Our individual components rely on this form to display the pages in it.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+If we pass it as a prop, then cypress displays it properly.
+
+But how do you set a Pinia value within cypress so you don't have to do what we are doing when you click the button.
