@@ -10,15 +10,18 @@ But how do you set a Pinia value within cypress so you don't have to do what we 
 
 To use:
 
-# Clone
-
-# yarn
-
-# yarn cypress
-
-# Try to run the App.cy.js
+- Clone
+- yarn
+- yarn cypress
+- Try to run the App.cy.js
 
 The component simply displays the pages on the form. Clicking the button will use the Store and set the value to a preset value.
 
 The first two tests use a default and then also a prop to populate the form.
 The THIRD test is the one that should use Pinia but I'm unsure how.
+
+Within the test, I want to effectively call
+
+setCurrentForm(object)
+
+So that the fixture I pass will be treated as though it is part of the component, just as it will be within the application.
