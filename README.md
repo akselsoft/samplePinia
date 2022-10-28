@@ -25,3 +25,10 @@ Within the test, I want to effectively call
 setCurrentForm(object)
 
 So that the fixture I pass will be treated as though it is part of the component, just as it will be within the application.
+
+The AppTest.cy.js is attempting to use the implementation recommended from Pinia here:
+https://pinia.vuejs.org/cookbook/testing.html#unit-testing-components
+
+But that creates an error.
+
+I'm missing something obvious but can't see it.

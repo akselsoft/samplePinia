@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@pinia/testing": "^0.0.14",
+    "@vue/test-utils": "^2.2.0",
     "cypress": "^10.11.0",
     "pinia": "^2.0.23",
     "vue": "^3.2.37"

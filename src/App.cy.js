@@ -25,6 +25,8 @@ describe("Sample App", () => {
       sampleData = data;
 
       cy.mount(App, {});
+
+      cy.log("what do I need to do to SET the store value in my test");
     });
   });
 });
